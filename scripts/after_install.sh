@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Starts the odoo service
+#Starts odoo service
 sudo systemctl daemon-reload
 sudo systemctl start odoo.service
-sudo systemctl enable --now odoo
+sudo systemctl enable --now odoo.service
